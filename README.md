@@ -1,6 +1,8 @@
 # 3D-DETR-Caption
 This project builds on "End-to-End 3D Dense Captioning with Vote2Cap-DETR" and "Vote2Cap-DETR++." It enhances the model by applying diffusion loss during pretraining to guide global feature extraction and focal loss during training to refine weight allocation.
 
+![1f6c480b9d5974a084ae9a6c18370cbb](https://github.com/user-attachments/assets/22966af0-278a-4fb5-a968-ebde9794b1ba)
+
 ## 1. Environment
 Our code is tested with PyTorch 2.4.0, CUDA 12.4 and Python 3.8.20.
 Besides `pytorch`, this repo also requires the following Python dependencies:
