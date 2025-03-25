@@ -124,10 +124,3 @@ The following command will generate a `.json` file under the folder defined by `
 ```
 bash submit.sh
 ```
-## 7. License
-
-Vote2Cap-DETR and Vote2Cap-DETR++ are both licensed under a [MIT License](LICENSE).
-
-## 8. Contact
-
-If you have any questions or suggestions regarding this repo, please feel free to open issues!
