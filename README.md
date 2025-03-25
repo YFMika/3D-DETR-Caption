@@ -101,6 +101,9 @@ And on Nr3D:
 bash scripts/vote2cap-detr++/train_mle_nr3d.sh
 ```
 
+Our MLE training result on ScanRefer can be download form [baidudisk](https://pan.baidu.com/s/1VYPITSDI_jVmjJ6V8D_Mpw?pwd=rd6h).
+You can put it under `./exp_scanrefer` folder.
+
 **4.3 Evaluating the Weights**
 
 You can evaluate any trained model with specified **models** and **checkponts**. Change `--dataset scene_scanrefer` to `--dataset scene_nr3d` to evaluate the model for the Nr3D dataset.
