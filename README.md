@@ -61,7 +61,7 @@ cd data; python parse_nr3d.py
 
 ## 3. [Optional] Download Pretrained Weights
 
-You can download all the ready-to-use weights from [huggingface](https://huggingface.co/CH3COOK/Vote2Cap-DETR-weights/tree/main).
+You can download all the ready-to-use weights from [baidudisk](https://pan.baidu.com/s/1pzVyMepJIE2OC-TRQZrEOw?pwd=gcc8).
 
 
 ## 4. Training and Evaluation
