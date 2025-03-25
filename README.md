@@ -102,7 +102,7 @@ bash scripts/vote2cap-detr++/train_mle_nr3d.sh
 ```
 
 Our MLE training result on ScanRefer can be download form [baidudisk](https://pan.baidu.com/s/1VYPITSDI_jVmjJ6V8D_Mpw?pwd=rd6h).
-You can put it under `./exp_scanrefer` folder for evaluate.
+You can put it under `./exp_scanrefer` folder for evaluating.
 
 
 **4.2 Evaluating the Weights**
