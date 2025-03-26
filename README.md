@@ -17,6 +17,8 @@ networkx
 scipy
 cython
 transformers
+scikit-learn
+tensorboard
 ```
 
 If you wish to use multi-view feature extracted by [Scan2Cap](https://github.com/daveredrum/Scan2Cap), you should also install `h5py`:
