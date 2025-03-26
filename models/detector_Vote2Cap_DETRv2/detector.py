@@ -128,7 +128,8 @@ class Model_Vote2Cap_DETR(nn.Module):
             d_pos=decoder_dim, pos_type=position_embedding, normalize=True
         )
 
-        self.diffusion = Diffusion(ckpt, latent_dim)
+        if is_pretrain:
+            self.diffusion = Diffusion(ckpt, latent_dim)
         
         self.revote_layers = [0, 1, 2]
         self.revoting_module = nn.ModuleDict({
