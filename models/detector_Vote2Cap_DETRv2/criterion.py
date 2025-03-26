@@ -630,7 +630,7 @@ class OverallCriterion(nn.Module):
         self.vote_query_loss = VoteQueryCriterion(args)
         self.rebuild_loss = RebuildCriterion(args)
 
-    def forward(self, votenet_outputs: Dict, decoder_outputs: Dict, targets: Dict, rebuild, origin) -> Dict:
+    def forward(self, votenet_outputs: Dict, decoder_outputs: Dict, targets: Dict, rebuild=None, origin=None) -> Dict:
         loss_dict = {}
         if rebuild is not None:
             rebuild_loss, rebuild_loss_dict = self.rebuild_loss(rebuild, origin)
