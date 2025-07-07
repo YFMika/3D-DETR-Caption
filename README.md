@@ -66,7 +66,7 @@ cd data; python parse_nr3d.py
 
 ## 3. [Optional] Download Pretrained Weights
 
-You can download all the ready-to-use weights from [baidudisk](https://pan.baidu.com/s/1pzVyMepJIE2OC-TRQZrEOw?pwd=gcc8).
+You can download all the ready-to-use weights from [baidudisk](https://pan.baidu.com/s/1PpYmgRRwWipw7NfoDeoFkg?pwd=k52q).
 
 
 ## 4. Training and Evaluation
@@ -106,7 +106,7 @@ And on Nr3D:
 bash scripts/vote2cap-detr++/train_mle_nr3d.sh
 ```
 
-Our MLE training result on ScanRefer can be download form [baidudisk](https://pan.baidu.com/s/1VYPITSDI_jVmjJ6V8D_Mpw?pwd=rd6h).
+Our MLE training result on ScanRefer can be download form [baidudisk](https://pan.baidu.com/s/1-lecCK2EejLIQ0MTZahvlw?pwd=ec2c).
 You can put it under `./exp_scanrefer` folder for evaluating.
 
 
